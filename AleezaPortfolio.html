@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aleeza Mazhar | Portfolio</title>
+    <!-- Tailwind CSS for modern, rapid styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Lucide Icons for clean, modern iconography -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;700&display=swap');
+        
+        body {
+            font-family: 'Plus Jakarta Sans', sans-serif;
+            background-color: #0b0f19;
+        }
+        .heading-font {
+            font-family: 'Space Grotesk', sans-serif;
+        }
+        .neon-glow {
+            box-shadow: 0 0 20px rgba(99, 102, 241, 0.2);
+        }
+        .neon-glow-cyan {
+            box-shadow: 0 0 20px rgba(6, 182, 212, 0.2);
+        }
+        .gradient-text {
+            background: linear-gradient(135deg, #6366f1 0%, #a855f7 50%, #06b6d4 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+    </style>
+</head>
+<body class="text-gray-300 antialiased selection:bg-indigo-500 selection:text-white">
+
+    <!-- Navigation Bar -->
+    <nav class="sticky top-0 z-50 bg-[#0b0f19]/80 backdrop-blur-md border-b border-gray-800/60 transition-all duration-300">
+        <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+            <a href="#" class="heading-font text-xl font-bold tracking-tight text-white flex items-center gap-2">
+                AM<span class="text-indigo-500">.</span>
+            </a>
+            <div class="hidden md:flex items-center gap-8 text-sm font-medium text-gray-400">
+                <a href="#about" class="hover:text-white transition-colors">About</a>
+                <a href="#experience" class="hover:text-white transition-colors">Experience</a>
+                <a href="#skills" class="hover:text-white transition-colors">Skills</a>
+                <a href="#projects" class="hover:text-white transition-colors">Projects</a>
+                <a href="#credentials" class="hover:text-white transition-colors">Credentials</a>
+            </div>
+            <a href="mailto:aleezamazhar366@gmail.com" class="bg-indigo-600/10 hover:bg-indigo-600 border border-indigo-500/30 hover:border-indigo-500 text-indigo-400 hover:text-white px-4 py-2 rounded-lg text-sm font-medium transition-all duration-300">
+                Let's Talk
+            </a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="about" class="relative min-h-[85vh] flex items-center justify-center overflow-hidden px-6 py-20">
+        <!-- Abstract background elements -->
+        <div class="absolute top-1/4 left-1/4 w-96 h-96 bg-indigo-600/10 rounded-full blur-[120px] pointer-events-none"></div>
+        <div class="absolute bottom-1/4 right-1/4 w-96 h-96 bg-cyan-600/10 rounded-full blur-[120px] pointer-events-none"></div>
+        
+        <div class="max-w-4xl mx-auto text-center relative z-10">
+            <span class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full text-xs font-semibold bg-indigo-500/10 text-indigo-400 border border-indigo-500/20 mb-6">
+                <i data-lucide="sparkles" class="w-3.5 h-3.5"></i> Operational Execution Meets Creative Strategy
+            </span>
+            <h1 class="heading-font text-4xl sm:text-6xl font-bold tracking-tight text-white mb-6 leading-[1.15]">
+                Hi, I'm Aleeza Mazhar. <br>
+                <span class="gradient-text">Driving AI Operations & Media Strategy.</span>
+            </h1>
+            <p class="text-gray-400 text-lg sm:text-xl max-w-2xl mx-auto mb-10 leading-relaxed">
+                A versatile BCA student, content creator, and operationally driven consultant. I combine technical mindset with global scale execution.
+            </p>
+            <div class="flex flex-wrap items-center justify-center gap-4">
+                <a href="#experience" class="bg-indigo-600 hover:bg-indigo-500 text-white font-medium px-6 py-3 rounded-xl transition-all duration-300 shadow-lg neon-glow flex items-center gap-2">
+                    View My Work <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                </a>
+                <a href="mailto:aleezamazhar366@gmail.com" class="bg-gray-800/80 hover:bg-gray-800 border border-gray-700 text-gray-300 font-medium px-6 py-3 rounded-xl transition-all duration-300 flex items-center gap-2">
+                    <i data-lucide="mail" class="w-4 h-4"></i> Get in Touch
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <hr class="border-gray-900 max-w-6xl mx-auto px-6">
+
+    <!-- Experience Timeline Section -->
+    <section id="experience" class="py-24 max-w-5xl mx-auto px-6">
+        <div class="text-center md:text-left mb-16">
+            <h2 class="heading-font text-3xl font-bold text-white mb-2">Professional Experience</h2>
+            <p class="text-gray-400">Where execution meets measurable cross-functional outcomes.</p>
+        </div>
+
+        <div class="space-y-12 relative border-l-2 border-gray-800 ml-4 md:ml-6 pl-6 md:pl-8">
+            <!-- Experience 1 -->
+            <div class="relative">
+                <div class="absolute -left-[33px] top-1.5 bg-indigo-600 w-4 h-4 rounded-full ring-4 ring-[#0b0f19]"></div>
+                <div class="flex flex-col md:flex-row md:justify-between items-start md:items-center mb-2">
+                    <h3 class="text-xl font-bold text-white">Project Coordinator Intern — AI Data Services</h3>
+                    <span class="text-xs font-semibold uppercase tracking-wider text-indigo-400 bg-indigo-500/10 px-2.5 py-1 rounded border border-indigo-500/20 mt-1 md:mt-0">Ongoing</span>
+                </div>
+                <p class="text-sm font-medium text-gray-400 mb-3">Consult Bae</p>
+                <p class="text-gray-400 text-sm leading-relaxed max-w-3xl">
+                    Directing non-technical global AI data lifecycle execution. Managing decentralized crowdsourced pipelines across 100+ countries for scaled data collection, annotation, and labeling assignments (images, video, audio, text) while tracking quality metrics against strict client guidelines.
+                </p>
+            </div>
+
+            <!-- Experience 2 -->
+            <div class="relative">
+                <div class="absolute -left-[33px] top-1.5 bg-cyan-600 w-4 h-4 rounded-full ring-4 ring-[#0b0f19]"></div>
+                <div class="flex flex-col md:flex-row md:justify-between items-start md:items-center mb-2">
+                    <h3 class="text-xl font-bold text-white">Content Creator & Graphic Designer</h3>
+                    <span class="text-xs font-semibold text-gray-400 mt-1 md:mt-0">202X - Present</span>
+                </div>
+                <p class="text-sm font-medium text-gray-400 mb-3">YouTube & Freelance</p>
+                <p class="text-gray-400 text-sm leading-relaxed max-w-3xl">
+                    Producing and scaling a faceless lifestyle and daily experience vlogging channel. Formulating high-retention copywriting hooks, layout templates, and click-through optimized thumbnails to organically scale engagement metrics.
+                </p>
+            </div>
+
+            <!-- Experience 3 -->
+            <div class="relative">
+                <div class="absolute -left-[33px] top-1.5 bg-purple-600 w-4 h-4 rounded-full ring-4 ring-[#0b0f19]"></div>
+                <div class="flex flex-col md:flex-row md:justify-between items-start md:items-center mb-2">
+                    <h3 class="text-xl font-bold text-white">Admissions Consultant Intern</h3>
+                    <span class="text-xs font-semibold text-gray-400 mt-1 md:mt-0">April 2026</span>
+                </div>
+                <p class="text-sm font-medium text-gray-400 mb-3">Ensynapse Technique</p>
+                <p class="text-gray-400 text-sm leading-relaxed max-w-3xl">
+                    Managed systemic applicant consultation pipelines, user onboarding, and technical training program alignment metrics.
+                </p>
+            </div>
+
+            <!-- Experience 4 -->
+            <div class="relative">
+                <div class="absolute -left-[33px] top-1.5 bg-gray-600 w-4 h-4 rounded-full ring-4 ring-[#0b0f19]"></div>
+                <div class="flex flex-col md:flex-row md:justify-between items-start md:items-center mb-2">
+                    <h3 class="text-xl font-bold text-white">AI Blog Writing Intern</h3>
+                    <span class="text-xs font-semibold text-gray-400 mt-1 md:mt-0">April 2026</span>
+                </div>
+                <p class="text-sm font-medium text-gray-400 mb-3">InAmigos Foundation</p>
+                <p class="text-gray-400 text-sm leading-relaxed max-w-3xl">
+                    Curated technical and long-form written assets utilizing systematic AI generation utilities and specialized structural editing methodologies.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Skills Section -->
+    <section id="skills" class="py-24 bg-[#0e1422] border-y border-gray-900">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="heading-font text-3xl font-bold text-white mb-2">Technical & Creative Skills</h2>
+                <p class="text-gray-400">Dual-engine capabilities engineered for both technical systems and digital media.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Group 1 -->
+                <div class="bg-[#0b0f19]/60 p-8 rounded-2xl border border-gray-800/80 transition-all hover:-translate-y-1 hover:border-indigo-500/30">
+                    <div class="w-12 h-12 rounded-xl bg-indigo-500/10 flex items-center justify-center text-indigo-400 mb-6">
+                        <i data-lucide="globe"></i>
+                    </div>
+                    <h3 class="heading-font text-lg font-bold text-white mb-4">Operations & Leadership</h3>
+                    <ul class="space-y-2.5 text-sm text-gray-400">
+                        <li class="flex items-center gap-2"><div class="w-1.5 h-1.5 rounded-full bg-indigo-400"></div> Project Coordination</li>
+                        <li class="flex items-center gap-2"><div class="w-1.5 h-1.5 rounded-full bg-indigo-400"></div> Crowdsourced Team Mgmt</li>
+                        <li class="flex items-center gap-2"><div class="w-1.5 h-1.5 rounded-full bg-indigo-400"></div> Global Vendor Onboarding</li>
+                        <li class="flex items-center gap-2"><div class="w-1.5 h-1.5 rounded-full bg-indigo-400"></div> Quality Control & Negotiation</li>
+                    </ul>
+                </div>
+
+                <!-- Group 2 -->
+                <div class="bg-[#0b0f19]/60 p-8 rounded-2xl border border-gray-800/80 transition-all hover:-translate-y-1 hover:border-cyan-500/30">
+                    <div class="w-12 h-12 rounded-xl bg-cyan-500/10 flex items-center justify-center text-cyan-400 mb-6">
+                        <i data-lucide="video"></i>
+                    </div>
+                    <h3 class="heading-font text-lg font-bold text-white mb-4">Creative & Strategy</h3>
+                    <ul class="space-y-2.5 text-sm text-gray-400">
+                        <li class="flex items-center gap-2"><div class="w-1.5 h-1.5 rounded-full bg-cyan-400"></div> AI-Assisted Copywriting</li>
+                        <li class="flex items-center gap-2"><div class="w-1.5 h-1.5 rounded-full bg-cyan-400"></div> Content Mapping</li>
+                        <li class="flex items-center gap-2"><div class="w-1.5 h-1.5 rounded-full bg-cyan-400"></div> Layout & Thumbnail Design</li>
+                        <li class="flex items-center gap-2"><div class="w-1.5 h-1.5 rounded-full bg-cyan-400"></div> Creative Problem Solving</li>
+                    </ul>
+                </div>
+
+                <!-- Group 3 -->
+                <div class="bg-[#0b0f19]/60 p-8 rounded-2xl border border-gray-800/80 transition-all hover:-translate-y-1 hover:border-purple-500/30">
+                    <div class="w-12 h-12 rounded-xl bg-purple-500/10 flex items-center justify-center text-purple-400 mb-6">
+                        <i data-lucide="code-2"></i>
+                    </div>
+                    <h3 class="heading-font text-lg font-bold text-white mb-4">Technical Tools</h3>
+                    <ul class="space-y-2.5 text-sm text-gray-400">
+                        <li class="flex items-center gap-2"><div class="w-1.5 h-1.5 rounded-full bg-purple-400"></div> C Programming Fundamentals</li>
+                        <li class="flex items-center gap-2"><div class="w-1.5 h-1.5 rounded-full bg-purple-400"></div> VS Code, Canva Pro</li>
+                        <li class="flex items-center gap-2"><div class="w-1.5 h-1.5 rounded-full bg-purple-400"></div> Microsoft Office Suite</li>
+                        <li class="flex items-center gap-2"><div class="w-1.5 h-1.5 rounded-full bg-purple-400"></div> AI Data Evaluation Tools</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-24 max-w-6xl mx-auto px-6">
+        <div class="text-center mb-16">
+            <h2 class="heading-font text-3xl font-bold text-white mb-2">Featured Projects</h2>
+            <p class="text-gray-400">Showcasing engineering applications and structured audience growth frameworks.</p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- Project 1 -->
+            <div class="bg-gradient-to-br from-gray-900 to-[#0e1422] p-8 rounded-2xl border border-gray-800 flex flex-col justify-between">
+                <div>
+                    <span class="text-xs font-bold text-indigo-400 tracking-wider uppercase mb-3 block">Media Optimization</span>
+                    <h3 class="heading-font text-2xl font-bold text-white mb-3">The 30-Day Growth Blueprint</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed mb-6">
+                        Developed a structured content execution strategy calendar mapped meticulously for lifestyle media channels, concentrating extensively on viral engagement retention engineering hooks.
+                    </p>
+                </div>
+                <div class="flex items-center gap-3">
+                    <span class="text-xs px-3 py-1 rounded-md bg-gray-800 text-gray-400 border border-gray-700">Strategy</span>
+                    <span class="text-xs px-3 py-1 rounded-md bg-gray-800 text-gray-400 border border-gray-700">Content Mapping</span>
+                </div>
+            </div>
+
+            <!-- Project 2 -->
+            <div class="bg-gradient-to-br from-gray-900 to-[#0e1422] p-8 rounded-2xl border border-gray-800 flex flex-col justify-between">
+                <div>
+                    <span class="text-xs font-bold text-cyan-400 tracking-wider uppercase mb-3 block">Hardware & Logic</span>
+                    <h3 class="heading-font text-2xl font-bold text-white mb-3">Physics Innovation Project</h3>
+                    <p class="text-gray-400 text-sm leading-relaxed mb-6">
+                        Designed and built a physical, fully operational transistor-based hardware time-delay switching apparatus, reinforcing foundational technical documentation methodologies and hardware logical configuration.
+                    </p>
+                </div>
+                <div class="flex items-center gap-3">
+                    <span class="text-xs px-3 py-1 rounded-md bg-gray-800 text-gray-400 border border-gray-700">Hardware</span>
+                    <span class="text-xs px-3 py-1 rounded-md bg-gray-800 text-gray-400 border border-gray-700">Engineering Documentation</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Verification Credentials / Education Section -->
+    <section id="credentials" class="py-24 bg-[#0e1422] border-t border-gray-900">
+        <div class="max-w-5xl mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <!-- Education Block -->
+                <div>
+                    <h2 class="heading-font text-2xl font-bold text-white mb-6 flex items-center gap-2">
+                        <i data-lucide="graduation-cap" class="text-indigo-400"></i> Education History
+                    </h2>
+                    <div class="border-l border-gray-800 pl-4 space-y-6">
+                        <div>
+                            <h4 class="font-bold text-white text-base">Bachelor of Computer Applications (BCA)</h4>
+                            <p class="text-sm text-gray-400">Al-Kabir Polytechnic, Jamshedpur</p>
+                            <span class="text-xs text-indigo-400 font-medium">Expected Graduation: 2029</span>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-white text-base">Higher Secondary (Class XII)</h4>
+                            <p class="text-sm text-gray-400">JAC Board</p>
+                            <span class="text-xs text-gray-500 font-medium">Completed 2026</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Internshala Archive Block -->
+                <div>
+                    <h2 class="heading-font text-2xl font-bold text-white mb-6 flex items-center gap-2">
+                        <i data-lucide="shield-check" class="text-cyan-400"></i> Credentials & Archival Records
+                    </h2>
+                    <p class="text-xs text-gray-500 mb-4">Verified digital certification strings indexed through Internshala Archives:</p>
+                    <div class="grid grid-cols-2 gap-3 text-xs">
+                        <div class="p-3 bg-[#0b0f19] border border-gray-800 rounded-lg">
+                            <span class="block text-gray-500">AI Blog Writing</span>
+                            <span class="font-mono text-cyan-400">49nm37k0ded</span>
+                        </div>
+                        <div class="p-3 bg-[#0b0f19] border border-gray-800 rounded-lg">
+                            <span class="block text-gray-500">Admissions Consultant</span>
+                            <span class="font-mono text-cyan-400">bigbndg1415</span>
+                        </div>
+                        <div class="p-3 bg-[#0b0f19] border border-gray-800 rounded-lg">
+                            <span class="block text-gray-500">Social Entrepreneurship</span>
+                            <span class="font-mono text-cyan-400">gxif3n8n7ne</span>
+                        </div>
+                        <div class="p-3 bg-[#0b0f19] border border-gray-800 rounded-lg">
+                            <span class="block text-gray-500">Social Work</span>
+                            <span class="font-mono text-cyan-400">foskg6rdsbb</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Global Footer -->
+    <footer class="bg-[#0b0f19] py-12 text-center text-xs text-gray-600 border-t border-gray-900">
+        <div class="max-w-4xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <p>&copy; 2026 Aleeza Mazhar. Operationalized Global Scaling Architecture.</p>
+            <div class="flex items-center gap-6 text-sm text-gray-400">
+                <a href="mailto:aleezamazhar366@gmail.com" class="hover:text-indigo-400 transition-colors"><i data-lucide="mail" class="w-4 h-4"></i></a>
+                <a href="#" class="hover:text-indigo-400 transition-colors"><i data-lucide="youtube" class="w-4 h-4"></i></a>
+                <a href="#" class="hover:text-indigo-400 transition-colors"><i data-lucide="briefcase" class="w-4 h-4"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Initialize Lucide Icons -->
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
